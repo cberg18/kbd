@@ -1052,7 +1052,7 @@
 		(uuid "00000000-0000-0000-0000-00005e922e3e")
 		(at 57.95 50.38 180)
 		(property "Reference" "K0"
-			(at -0.05 -3.12 -0)
+			(at -0.05 -3.12 0)
 			(layer "B.Fab")
 			(uuid "1dc6034b-a976-494a-a66b-3f2f523840cd")
 			(effects

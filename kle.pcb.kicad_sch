@@ -15358,7 +15358,7 @@
 				)
 			)
 		)
-		(property "Value" "Blank"
+		(property "Value" "Space"
 			(at 160.02 92.71 0)
 			(effects
 				(font
