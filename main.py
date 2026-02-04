@@ -4,9 +4,9 @@ from kipy.geometry import Vector2, Angle
 SWITCH_DIM = 19.05
 SWITCH_OFFSET = SWITCH_DIM/2
 DIODE_OFFSET_X = 8.5
-DIODE_OFFSET_Y = -2
+DIODE_OFFSET_Y = 5
 
-key_diode_pairs = []
+key_diode_pairs = {}
 
 keymap = {
     0: (0,1),
@@ -92,54 +92,53 @@ keymap = {
     80: (6,6),
     81: (7,6),
     82: (8,6),
-    83: (9,6),
-    "1": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
-    "2": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
-    "3": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
-    "4": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
-    "5": [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73],
-    "6": [74, 75, 76, 77, 78, 79, 80, 81, 82, 83]
+    83: (9,6)
+}
+_keymap = {
+    "1": (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15),
+    "2": (16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30),
+    "3": (31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45),
+    "4": (46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59),
+    "5": (60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73),
+    "6": (74, 75, 76, 77, 78, 79, 80, 81, 82, 83)
 }
 
 board = KiCad().get_board()
 footprints = board.get_footprints()
 for footprint in footprints:
-    x_position_k = 0
-    y_position_k = 0
-    x_position_d = 0
-    y_position_d = 0
     if "MX-Hotswap" in footprint.definition.id.name:
         print(f"Hotswap footprint found: {footprint.definition.id.name}")
-        switch_size = footprint.definition.id.name.replace("MX-Hotswap-", "").replace("U","")
         switch_index = int(footprint.reference_field.text.value.replace("K",""))
         for _footprint in footprints:
             if "Diode" in _footprint.definition.id.library and int(_footprint.reference_field.text.value.replace("D", "")) == switch_index:
-                x = 0
-                y = 0
-                diode_index = int(_footprint.reference_field.text.value.replace("D", ""))
                 print(f"Found corresponding diode: {_footprint.definition.id.name}")
-                key_diode_pairs.append((footprint, _footprint))
-                _SWITCH_DIM = float(switch_size) * SWITCH_DIM
-                x_position_k = (SWITCH_DIM * keymap[switch_index][0]) + SWITCH_OFFSET
-                y_position_k = (SWITCH_DIM * keymap[switch_index][1]) + SWITCH_OFFSET
-                #x_position_d = (SWITCH_DIM * keymap[switch_index][0]) + DIODE_OFFSET_X
-                #y_position_d = (SWITCH_DIM * keymap[switch_index][1]) + DIODE_OFFSET_Y
-
-                #footprint.position = Vector2.from_xy_mm(x_position_k, y_position_k)
-
-                print(f"Old diode position: {footprint.position.x}, {footprint.position.y}")
-                x = (footprint.position.x/1000000) + DIODE_OFFSET_X
-                y = (footprint.position.y/1000000) + DIODE_OFFSET_Y
-                print(f"New diode position: {x}, {y}")
-                _footprint.position = Vector2.from_xy_mm(x, y)
-
-                print(f"{footprint.reference_field.text.value} switch position: {footprint.position.x}, {footprint.position.y}")
-                print(f"{_footprint.reference_field.text.value} diode position: {_footprint.position.x}, {_footprint.position.y}")
-                #footprint.position = Vector2.from_xy_mm(x_position_k, y_position_k)
-                #_footprint.position = Vector2.from_xy_mm(x_position_d, y_position_d)
-                break
+                print(f"{footprint.reference_field.text.value}")
+                print(f"{_footprint.reference_field.text.value}")
+                key_diode_pairs[switch_index] = (footprint, _footprint)
+            continue
     continue
 
+for key, value in _keymap.items():
+    offset = 50
+    print(f"row: {key}")
+    for _value in value:
+        x = 0
+        y = 0
+        coord = keymap[_value]
+        switch_size = key_diode_pairs[_value][0].definition.id.name.replace("MX-Hotswap-", "").replace("U","")
+        print(f"switch_size: {switch_size}")
+        x = (coord[0] + round(((float(switch_size) * SWITCH_DIM) - SWITCH_DIM)/2,4)) + offset
+        y = round((coord[1] * SWITCH_DIM) + SWITCH_OFFSET,4)
+        offset = round(offset + (float(switch_size) * SWITCH_DIM),4) - 1
+        print(f"x: {x} y: {y}")
+        key_diode_pairs[_value][0].position = Vector2.from_xy_mm(x, y)
+
+        x_d = (key_diode_pairs[_value][0].position.x/1000000) + DIODE_OFFSET_X
+        y_d = (key_diode_pairs[_value][0].position.y/1000000) + DIODE_OFFSET_Y
+        key_diode_pairs[_value][1].position = Vector2.from_xy_mm(x_d, y_d)
+    print(f"max x: {x}, max y: {y}")
+
+#print(key_diode_pairs)
 board.update_items(footprints)
 #print(key_diode_pairs[1][1].position.x)
 #print(key_diode_pairs[1][1].reference_field.text.value)
