@@ -13,9 +13,9 @@ SWITCH_OFFSET = SWITCH_DIM / 2
 DIODE_OFFSET_X = 8.5
 DIODE_OFFSET_Y = 5
 OFFSET = 50
-PADDING = 15
+PADDING = 10
 MIN_X = OFFSET - SWITCH_OFFSET - PADDING
-MIN_Y = OFFSET - SWITCH_OFFSET - PADDING
+MIN_Y = OFFSET - SWITCH_DIM - PADDING
 MAX_X = 0
 MAX_Y = 0
 
@@ -163,9 +163,12 @@ for key, value in _keymap.items():
     MAX_Y = y
     print(f"max x: {MAX_X}, max y: {MAX_Y}")
 
-MAX_x = MAX_X + PADDING + SWITCH_OFFSET
-MAX_y = MAX_Y + PADDING + SWITCH_OFFSET
+MAX_X = MAX_X + PADDING + SWITCH_OFFSET
+MAX_Y = MAX_Y + PADDING + SWITCH_OFFSET
 
+print(f"drawing board outline")
+print(f"MIN X: {MIN_X}, MIN Y: {MIN_Y}")
+print(f"MAX X: {MAX_X}, MAX Y: {MAX_Y}")
 outline = PolyLine()
 outline.append(PolyLineNode.from_xy(from_mm(MIN_X), from_mm(MIN_Y)))
 outline.append(PolyLineNode.from_xy(from_mm(MAX_X), from_mm(MIN_Y)))
@@ -180,11 +183,12 @@ fillZone.outline = polygon
 
 board_outline = Zone()
 board_outline.layers = [BoardLayer.BL_Edge_Cuts]
-fillZone.outline = polygon
+board_outline.outline = polygon
 
+board.create_items(board_outline)
 board.create_items(fillZone)
 board.update_items(footprints)
-board.refill_zones()
-board.save()
+board.refill_zones(block=False)
+# board.save()
 # print(key_diode_pairs[1][1].position.x)
 # print(key_diode_pairs[1][1].reference_field.text.value)

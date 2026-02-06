@@ -3237,16 +3237,22 @@
 		(uuid "61c82db4-7bcf-498c-a73e-36e253608473")
 	)
 	(junction
-		(at 175.26 241.3)
+		(at 170.18 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b436ad8-3180-4f2b-9552-91e6ca344ece")
+		(uuid "7886d4df-106d-432c-89e2-08bda2c30827")
 	)
 	(junction
 		(at 165.1 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a187d3af-ec25-4534-9f35-a33217432e56")
+	)
+	(junction
+		(at 175.26 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa419d78-4ff0-4aae-a390-1ce385a240c2")
 	)
 	(junction
 		(at 101.6 271.78)
@@ -3283,12 +3289,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edf45562-3fac-490e-b601-50f3fc31f87b")
-	)
-	(junction
-		(at 170.18 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f371bd90-ceed-4e4b-be41-be8edbf9bf71")
 	)
 	(no_connect
 		(at 246.38 163.83)
@@ -3336,16 +3336,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 241.3) (xy 175.26 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "268f17aa-f3e1-4826-9ca8-b999b0316982")
-	)
-	(wire
-		(pts
 			(xy 246.38 168.91) (xy 243.84 168.91)
 		)
 		(stroke
@@ -3366,6 +3356,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 237.49) (xy 170.18 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dedceb-e064-4162-b109-93396c7b786c")
+	)
+	(wire
+		(pts
 			(xy 337.82 168.91) (xy 342.9 168.91)
 		)
 		(stroke
@@ -3373,6 +3373,16 @@
 			(type default)
 		)
 		(uuid "3792a4f9-539f-4fc3-a813-4810e1b6f92b")
+	)
+	(wire
+		(pts
+			(xy 193.04 241.3) (xy 170.18 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385ea4d5-cd1d-40ee-84a4-5736763e9e89")
 	)
 	(wire
 		(pts
@@ -3436,6 +3446,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 243.84) (xy 175.26 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533202c3-e547-4ad9-a0dd-7752c51678d2")
+	)
+	(wire
+		(pts
 			(xy 195.58 265.43) (xy 195.58 273.05)
 		)
 		(stroke
@@ -3463,16 +3483,6 @@
 			(type default)
 		)
 		(uuid "5d8079ab-32c1-4574-a8a2-f10c846e24a2")
-	)
-	(wire
-		(pts
-			(xy 175.26 241.3) (xy 193.04 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c78dbf-e39d-4030-b3fa-986d2137a20b")
 	)
 	(wire
 		(pts
@@ -3506,13 +3516,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 243.84) (xy 193.04 243.84)
+			(xy 170.18 241.3) (xy 170.18 250.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67536f7d-97a8-491f-9104-9b3318dbabee")
+		(uuid "673b096c-0c4c-4afd-9c2b-bc93849b53eb")
+	)
+	(wire
+		(pts
+			(xy 175.26 237.49) (xy 175.26 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a754200-27e2-4617-9b9e-645aed9b178a")
 	)
 	(wire
 		(pts
@@ -3586,16 +3606,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 243.84) (xy 170.18 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8802dd6-ba87-4a32-854b-a4e33ac97512")
-	)
-	(wire
-		(pts
 			(xy 157.48 246.38) (xy 165.1 246.38)
 		)
 		(stroke
@@ -3633,16 +3643,6 @@
 			(type default)
 		)
 		(uuid "b2db208e-8a13-49a9-92fe-4ad427fea602")
-	)
-	(wire
-		(pts
-			(xy 175.26 237.49) (xy 175.26 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcad1e93-8d54-4bd3-95fb-3d2a2deed83d")
 	)
 	(wire
 		(pts
@@ -3696,16 +3696,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 237.49) (xy 170.18 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfca4b3c-8195-4cb5-b1cd-bd7d188e5016")
-	)
-	(wire
-		(pts
 			(xy 259.08 144.78) (xy 259.08 148.59)
 		)
 		(stroke
@@ -3713,6 +3703,16 @@
 			(type default)
 		)
 		(uuid "e81750ca-4086-41c3-99f5-74596db61732")
+	)
+	(wire
+		(pts
+			(xy 175.26 243.84) (xy 193.04 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fe895f-8f94-4c96-b9d6-487edb2e9067")
 	)
 	(wire
 		(pts
@@ -9902,7 +9902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 94.9452 269.24 0)
 			(effects
 				(font
@@ -11817,7 +11817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.1852 269.24 0)
 			(effects
 				(font
@@ -12759,7 +12759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
 			(at 101.6 256.54 0)
 			(effects
 				(font
