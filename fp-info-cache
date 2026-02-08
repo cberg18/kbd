@@ -1,4 +1,4 @@
-27436254588344296
+27439795685480463
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108128,6 +108128,20 @@ Varistor VF
 0
 2
 2
+footprints
+CONN_8p94X6p5X3p16_12L_GCC
+
+USB4215-03-A 
+0
+12
+12
+footprints
+RGT16_1P7X1P7
+
+BQ24075RGTR 
+0
+21
+18
 keyboard_parts.pretty-master
 4P4C
 http://www.assmann.us/specs/A-2004-3-4-LP-N-R_REV00.pdf

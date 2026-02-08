@@ -5512,7 +5512,7 @@
 		(property "Reference" "K0"
 			(at -0.05 -3.12 0)
 			(layer "B.Fab")
-			(uuid "1807bef2-f86f-4f95-916a-95be9255f926")
+			(uuid "3e0e3854-7f8a-4790-8911-7e886cf87dc3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5524,7 +5524,7 @@
 		(property "Value" "Esc"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "d93589e9-039d-4f85-bd83-7dc829eb317c")
+			(uuid "c8ffcb8d-76dc-4579-ab12-5978be9c61d4")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5537,7 +5537,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b25f045a-1c9c-4313-81e4-f3e8077c5e93")
+			(uuid "4e242035-23e7-483e-93c7-040a82b94834")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5550,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4035d7ca-8dfd-4361-ba30-d49266fd058a")
+			(uuid "5ecb2d93-a96a-4396-86fe-3a4e8a72f8cc")
 			(effects
 				(font
 					(size 1.27 1.27)

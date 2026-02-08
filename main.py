@@ -1,7 +1,3 @@
-from tkinter import SW
-from turtle import poly
-from uuid import MAX
-
 from kipy import KiCad
 from kipy.board_types import BoardItem, BoardRectangle, Zone
 from kipy.geometry import Box2, PolygonWithHoles, PolyLine, PolyLineNode, Vector2
@@ -163,12 +159,22 @@ for key, value in _keymap.items():
     MAX_Y = y
     print(f"max x: {MAX_X}, max y: {MAX_Y}")
 
-MAX_X = MAX_X + PADDING + SWITCH_OFFSET
-MAX_Y = MAX_Y + PADDING + SWITCH_OFFSET
+_min = key_diode_pairs[min(keymap)][0].position.from_xy(
+    key_diode_pairs[min(keymap)][0].position.x,
+    key_diode_pairs[min(keymap)][0].position.y,
+)
+_max = key_diode_pairs[min(keymap)][0].position.from_xy(
+    key_diode_pairs[max(keymap)][0].position.x,
+    key_diode_pairs[max(keymap)][0].position.y,
+)
+MIN_X = _min.x
+MIN_Y = _min.y
+MAX_X = _max.x
+MAX_Y = _max.y
 
-print(f"drawing board outline")
-print(f"MIN X: {MIN_X}, MIN Y: {MIN_Y}")
-print(f"MAX X: {MAX_X}, MAX Y: {MAX_Y}")
+print("drawing board outline")
+print(f"MIN X: {MIN_X / 1000000} mm, MIN Y: {MIN_Y / 1000000} mm")
+print(f"MAX X: {MAX_X / 1000000} mm, MAX Y: {MAX_Y / 1000000} mm")
 outline = PolyLine()
 outline.append(PolyLineNode.from_xy(from_mm(MIN_X), from_mm(MIN_Y)))
 outline.append(PolyLineNode.from_xy(from_mm(MAX_X), from_mm(MIN_Y)))
@@ -182,13 +188,16 @@ fillZone.layers = [BoardLayer.BL_F_Cu, BoardLayer.BL_B_Cu]
 fillZone.outline = polygon
 
 board_outline = Zone()
+board_outline.type = ZoneType.OUTLINE
+board_outline.filled = true
 board_outline.layers = [BoardLayer.BL_Edge_Cuts]
 board_outline.outline = polygon
 
 board.create_items(board_outline)
+board.update_items(board_outline)
 board.create_items(fillZone)
 board.update_items(footprints)
 board.refill_zones(block=False)
-# board.save()
+board.save()
 # print(key_diode_pairs[1][1].position.x)
 # print(key_diode_pairs[1][1].reference_field.text.value)
