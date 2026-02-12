@@ -1,7 +1,7 @@
 from kipy import KiCad
-from kipy.board_types import BoardItem, BoardRectangle, Zone
-from kipy.geometry import Box2, PolygonWithHoles, PolyLine, PolyLineNode, Vector2
-from kipy.proto.board import BoardGraphicShape, BoardLayer
+from kipy.board_types import Net, Zone
+from kipy.geometry import PolygonWithHoles, PolyLine, PolyLineNode, Vector2
+from kipy.proto.board import BoardLayer
 from kipy.util.units import from_mm
 
 SWITCH_DIM = 19.05
@@ -9,11 +9,8 @@ SWITCH_OFFSET = SWITCH_DIM / 2
 DIODE_OFFSET_X = 8.5
 DIODE_OFFSET_Y = 5
 OFFSET = 50
-PADDING = 10
-MIN_X = OFFSET - SWITCH_OFFSET - PADDING
-MIN_Y = OFFSET - SWITCH_DIM - PADDING
-MAX_X = 0
-MAX_Y = 0
+PADDING_X = 11
+PADDING_Y = 10
 
 key_diode_pairs = {}
 
@@ -111,8 +108,12 @@ _keymap = {
     "5": (60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73),
     "6": (74, 75, 76, 77, 78, 79, 80, 81, 82, 83),
 }
+do_footprints = True
+do_zones = True
+do_board = True
 
 board = KiCad().get_board()
+print(board.get_nets())
 footprints = board.get_footprints()
 for footprint in footprints:
     if "MX-Hotswap" in footprint.definition.id.name:
@@ -130,34 +131,36 @@ for footprint in footprints:
                 key_diode_pairs[switch_index] = (footprint, _footprint)
             continue
     continue
+if do_footprints:
+    for key, value in _keymap.items():
+        offset = OFFSET
+        print(f"row: {key}")
+        x = 0
+        y = 0
+        for _value in value:
+            coord = keymap[_value]
+            switch_size = (
+                key_diode_pairs[_value][0]
+                .definition.id.name.replace("MX-Hotswap-", "")
+                .replace("U", "")
+            )
+            print(f"switch_size: {switch_size}")
+            x = (
+                coord[0]
+                + round(((float(switch_size) * SWITCH_DIM) - SWITCH_DIM) / 2, 4)
+            ) + offset
+            y = round((coord[1] * SWITCH_DIM) + SWITCH_OFFSET, 4)
+            offset = round(offset + (float(switch_size) * SWITCH_DIM), 4) - 1
+            print(f"x: {x} y: {y}")
+            key_diode_pairs[_value][0].position = Vector2.from_xy_mm(x, y)
 
-for key, value in _keymap.items():
-    offset = OFFSET
-    print(f"row: {key}")
-    x = 0
-    y = 0
-    for _value in value:
-        coord = keymap[_value]
-        switch_size = (
-            key_diode_pairs[_value][0]
-            .definition.id.name.replace("MX-Hotswap-", "")
-            .replace("U", "")
-        )
-        print(f"switch_size: {switch_size}")
-        x = (
-            coord[0] + round(((float(switch_size) * SWITCH_DIM) - SWITCH_DIM) / 2, 4)
-        ) + offset
-        y = round((coord[1] * SWITCH_DIM) + SWITCH_OFFSET, 4)
-        offset = round(offset + (float(switch_size) * SWITCH_DIM), 4) - 1
-        print(f"x: {x} y: {y}")
-        key_diode_pairs[_value][0].position = Vector2.from_xy_mm(x, y)
-
-        x_d = (key_diode_pairs[_value][0].position.x / 1000000) + DIODE_OFFSET_X
-        y_d = (key_diode_pairs[_value][0].position.y / 1000000) + DIODE_OFFSET_Y
-        key_diode_pairs[_value][1].position = Vector2.from_xy_mm(x_d, y_d)
-    MAX_X = x
-    MAX_Y = y
-    print(f"max x: {MAX_X}, max y: {MAX_Y}")
+            x_d = (key_diode_pairs[_value][0].position.x / 1000000) + DIODE_OFFSET_X
+            y_d = (key_diode_pairs[_value][0].position.y / 1000000) + DIODE_OFFSET_Y
+            key_diode_pairs[_value][1].position = Vector2.from_xy_mm(x_d, y_d)
+        MAX_X = x
+        MAX_Y = y
+        print(f"max x: {MAX_X}, max y: {MAX_Y}")
+    board.update_items(footprints)
 
 _min = key_diode_pairs[min(keymap)][0].position.from_xy(
     key_diode_pairs[min(keymap)][0].position.x,
@@ -167,37 +170,50 @@ _max = key_diode_pairs[min(keymap)][0].position.from_xy(
     key_diode_pairs[max(keymap)][0].position.x,
     key_diode_pairs[max(keymap)][0].position.y,
 )
-MIN_X = _min.x
-MIN_Y = _min.y
-MAX_X = _max.x
-MAX_Y = _max.y
+MIN_X = _min.x / 1000000
+MIN_Y = _min.y / 1000000
+MAX_X = _max.x / 1000000
+MAX_Y = _max.y / 1000000
 
 print("drawing board outline")
-print(f"MIN X: {MIN_X / 1000000} mm, MIN Y: {MIN_Y / 1000000} mm")
-print(f"MAX X: {MAX_X / 1000000} mm, MAX Y: {MAX_Y / 1000000} mm")
+print(f"MIN X: {MIN_X} mm, MIN Y: {MIN_Y} mm")
+print(f"MAX X: {MAX_X} mm, MAX Y: {MAX_Y} mm")
 outline = PolyLine()
-outline.append(PolyLineNode.from_xy(from_mm(MIN_X), from_mm(MIN_Y)))
-outline.append(PolyLineNode.from_xy(from_mm(MAX_X), from_mm(MIN_Y)))
-outline.append(PolyLineNode.from_xy(from_mm(MAX_X), from_mm(MAX_Y)))
-outline.append(PolyLineNode.from_xy(from_mm(MIN_X), from_mm(MAX_Y)))
+# top left
+outline.append(
+    PolyLineNode.from_xy(from_mm(MIN_X - PADDING_X), from_mm(MIN_Y - PADDING_Y - 8))
+)
+# top right
+outline.append(
+    PolyLineNode.from_xy(from_mm(MAX_X + PADDING_X), from_mm(MIN_Y - PADDING_Y - 8))
+)
+# bottom right
+outline.append(
+    PolyLineNode.from_xy(from_mm(MAX_X + PADDING_X), from_mm(MAX_Y + PADDING_Y))
+)
+# bottom left
+outline.append(
+    PolyLineNode.from_xy(from_mm(MIN_X - PADDING_X), from_mm(MAX_Y + PADDING_Y))
+)
 
 polygon = PolygonWithHoles()
 polygon.outline = outline
-fillZone = Zone()
-fillZone.layers = [BoardLayer.BL_F_Cu, BoardLayer.BL_B_Cu]
-fillZone.outline = polygon
+gnd = Net()
+gnd.name = "GND"
+if do_zones:
+    fillZone = Zone()
+    fillZone.layers = [BoardLayer.BL_F_Cu, BoardLayer.BL_B_Cu]
 
-board_outline = Zone()
-board_outline.type = ZoneType.OUTLINE
-board_outline.filled = true
-board_outline.layers = [BoardLayer.BL_Edge_Cuts]
-board_outline.outline = polygon
+    fillZone.net = gnd
+    fillZone.outline = polygon
+    board.create_items(fillZone)
+    board.update_items(fillZone)
 
-board.create_items(board_outline)
-board.update_items(board_outline)
-board.create_items(fillZone)
-board.update_items(footprints)
-board.refill_zones(block=False)
-board.save()
-# print(key_diode_pairs[1][1].position.x)
-# print(key_diode_pairs[1][1].reference_field.text.value)
+if do_board:
+    print("drawing board")
+    board_outline = Zone()
+    board_outline.layers = [BoardLayer.BL_Edge_Cuts]
+    board_outline.outline = polygon
+
+    board.create_items(board_outline)
+    board.update_items(board_outline)
