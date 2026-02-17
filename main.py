@@ -1,6 +1,14 @@
+from math import cos, pi, sin
+
 from kipy import KiCad
 from kipy.board_types import Net, Zone
-from kipy.geometry import PolygonWithHoles, PolyLine, PolyLineNode, Vector2
+from kipy.geometry import (
+    ArcStartMidEnd,
+    PolygonWithHoles,
+    PolyLine,
+    PolyLineNode,
+    Vector2,
+)
 from kipy.proto.board import BoardLayer
 from kipy.util.units import from_mm
 
@@ -9,8 +17,12 @@ SWITCH_OFFSET = SWITCH_DIM / 2
 DIODE_OFFSET_X = 8.5
 DIODE_OFFSET_Y = 5
 OFFSET = 50
-PADDING_X = 11
-PADDING_Y = 10
+PADDING_X = 10
+PADDING_Y = 12.5
+BOTTOM_PADDING = 2.5
+USB_WIDTH = 14
+USB_VERT_PADDING = 3.5
+FILLET_RAD = 1.5
 
 key_diode_pairs = {}
 
@@ -108,16 +120,20 @@ _keymap = {
     "5": (60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73),
     "6": (74, 75, 76, 77, 78, 79, 80, 81, 82, 83),
 }
-do_footprints = True
+do_footprints = False
 do_zones = True
 do_board = True
 
 board = KiCad().get_board()
-print(board.get_nets())
 footprints = board.get_footprints()
+zones = board.get_zones()
 for footprint in footprints:
+    if "MDBT50Q" in footprint.definition.id.name:
+        uc = footprint
+    if "CONN_8p" in footprint.definition.id.name:
+        usb = footprint
     if "MX-Hotswap" in footprint.definition.id.name:
-        print(f"Hotswap footprint found: {footprint.definition.id.name}")
+        # print(f"Hotswap footprint found: {footprint.definition.id.name}")
         switch_index = int(footprint.reference_field.text.value.replace("K", ""))
         for _footprint in footprints:
             if (
@@ -125,12 +141,13 @@ for footprint in footprints:
                 and int(_footprint.reference_field.text.value.replace("D", ""))
                 == switch_index
             ):
-                print(f"Found corresponding diode: {_footprint.definition.id.name}")
-                print(f"{footprint.reference_field.text.value}")
-                print(f"{_footprint.reference_field.text.value}")
+                # print(f"Found corresponding diode: {_footprint.definition.id.name}")
+                # print(f"{footprint.reference_field.text.value}")
+                # print(f"{_footprint.reference_field.text.value}")
                 key_diode_pairs[switch_index] = (footprint, _footprint)
             continue
     continue
+
 if do_footprints:
     for key, value in _keymap.items():
         offset = OFFSET
@@ -175,17 +192,59 @@ MIN_Y = _min.y / 1000000
 MAX_X = _max.x / 1000000
 MAX_Y = _max.y / 1000000
 
-print("drawing board outline")
+print("footprint perimeters:")
 print(f"MIN X: {MIN_X} mm, MIN Y: {MIN_Y} mm")
 print(f"MAX X: {MAX_X} mm, MAX Y: {MAX_Y} mm")
+print("drawing board outline")
+outline = None
 outline = PolyLine()
+# board corners
 # top left
 outline.append(
-    PolyLineNode.from_xy(from_mm(MIN_X - PADDING_X), from_mm(MIN_Y - PADDING_Y - 8))
+    PolyLineNode.from_xy(from_mm(MIN_X - PADDING_X), from_mm(MIN_Y - PADDING_Y))
 )
+
+# (x,y)
+# (x,y-5)
+# (x+5,y)
+# _a = ArcStartMidEnd()
+# _a.start = Vector2.from_xy_mm(0, 0)
+# _a.mid = Vector2.from_xy_mm(0, -5)
+# _a.end = Vector2.from_xy_mm(5, -5)
+# _p = PolyLineNode()
+# _p.arc = _a
+# outline.append(_p)
+
+# usb bump
+# usb bottom left side
+usb_bl_x = round((usb.position.x / 1000000) - USB_WIDTH / 2, 4)
+usb_bl_y = MIN_Y - PADDING_Y
+
+usb_tl_x = round((usb.position.x / 1000000) - USB_WIDTH / 2, 4)
+usb_tl_y = round((usb.position.y / 1000000) - USB_VERT_PADDING, 4)
+
+usb_tr_x = round((usb.position.x / 1000000) + USB_WIDTH / 2, 4)
+usb_tr_y = round((usb.position.y / 1000000) - USB_VERT_PADDING, 4)
+
+usb_br_x = round((usb.position.x / 1000000) + USB_WIDTH / 2, 4)
+usb_br_y = MIN_Y - PADDING_Y
+
+outline.append(PolyLineNode.from_xy(from_mm(usb_bl_x), from_mm(usb_bl_y)))
+
+outline.append(PolyLineNode.from_xy(from_mm(usb_tl_x), from_mm(usb_tl_y)))
+
+outline.append(PolyLineNode.from_xy(from_mm(usb_tr_x), from_mm(usb_tr_y)))
+
+outline.append(PolyLineNode.from_xy(from_mm(usb_br_x), from_mm(usb_br_y)))
+
+print(f"usb corner 1: {usb_bl_x}, {usb_bl_y}")
+print(f"usb corner 2: {usb_tl_x}, {usb_tl_y}")
+print(f"usb corner 3: {usb_tr_x}, {usb_tr_y}")
+print(f"usb corner 4: {usb_br_x}, {usb_br_y}")
+
 # top right
 outline.append(
-    PolyLineNode.from_xy(from_mm(MAX_X + PADDING_X), from_mm(MIN_Y - PADDING_Y - 8))
+    PolyLineNode.from_xy(from_mm(MAX_X + PADDING_X), from_mm(MIN_Y - PADDING_Y))
 )
 # bottom right
 outline.append(
@@ -195,6 +254,7 @@ outline.append(
 outline.append(
     PolyLineNode.from_xy(from_mm(MIN_X - PADDING_X), from_mm(MAX_Y + PADDING_Y))
 )
+
 
 polygon = PolygonWithHoles()
 polygon.outline = outline
@@ -208,6 +268,103 @@ if do_zones:
     fillZone.outline = polygon
     board.create_items(fillZone)
     board.update_items(fillZone)
+
+"""
+fillet_center = (usb_bl_x - FILLET_RAD, (MIN_Y - PADDING_Y - 8) + FILLET_RAD)
+
+bl_arc_start = (
+    fillet_center[0] + (FILLET_RAD * cos(180 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(180 * (pi / 180))),
+)
+bl_arc_end = (
+    fillet_center[0] + (FILLET_RAD * cos(135 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(135 * (pi / 180))),
+)
+bl_arc_mid = (
+    fillet_center[0] + (FILLET_RAD * cos(90 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(90 * (pi / 180))),
+)
+_arc = ArcStartMidEnd()
+_arc.start = Vector2.from_xy_mm(bl_arc_start[0], bl_arc_start[1])
+_arc.mid = Vector2.from_xy_mm(bl_arc_mid[0], bl_arc_mid[1])
+_arc.end = Vector2.from_xy_mm(bl_arc_end[0], bl_arc_end[1])
+_node = PolyLineNode()
+_node.arc = _arc
+outline.append(_node)
+
+# top left
+outline.append(PolyLineNode.from_xy(from_mm(usb_bl_x), from_mm(usb_tl_y)))
+fillet_center = (usb_bl_x + FILLET_RAD, usb_tl_y - FILLET_RAD)
+
+bl_arc_start = (
+    fillet_center[0] + (FILLET_RAD * cos(270 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(270 * (pi / 180))),
+)
+bl_arc_end = (
+    fillet_center[0] + (FILLET_RAD * cos(0 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(0 * (pi / 180))),
+)
+bl_arc_mid = (
+    fillet_center[0] + (FILLET_RAD * cos(315 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(315 * (pi / 180))),
+)
+_arc = ArcStartMidEnd()
+_arc.start = Vector2.from_xy_mm(bl_arc_start[0], bl_arc_start[1])
+_arc.mid = Vector2.from_xy_mm(bl_arc_mid[0], bl_arc_mid[1])
+_arc.end = Vector2.from_xy_mm(bl_arc_end[0], bl_arc_end[1])
+_node = PolyLineNode()
+_node.arc = _arc
+outline.append(_node)
+
+# top right
+outline.append(PolyLineNode.from_xy(from_mm(usb_br), from_mm(usb_tl_y)))
+fillet_center = (usb_bl_x - FILLET_RAD, usb_tl_y - FILLET_RAD)
+
+bl_arc_start = (
+    fillet_center[0] + (FILLET_RAD * cos(0 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(0 * (pi / 180))),
+)
+bl_arc_end = (
+    fillet_center[0] + (FILLET_RAD * cos(90 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(90 * (pi / 180))),
+)
+bl_arc_mid = (
+    fillet_center[0] + (FILLET_RAD * cos(45 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(45 * (pi / 180))),
+)
+_arc = ArcStartMidEnd()
+_arc.start = Vector2.from_xy_mm(bl_arc_start[0], bl_arc_start[1])
+_arc.mid = Vector2.from_xy_mm(bl_arc_mid[0], bl_arc_mid[1])
+_arc.end = Vector2.from_xy_mm(bl_arc_end[0], bl_arc_end[1])
+_node = PolyLineNode()
+_node.arc = _arc
+outline.append(_node)
+
+# bottom right
+outline.append(PolyLineNode.from_xy(from_mm(usb_br), from_mm(MIN_Y - PADDING_Y - 8)))
+fillet_center = (usb_bl_x + FILLET_RAD, usb_tl_y + FILLET_RAD)
+
+bl_arc_start = (
+    fillet_center[0] + (FILLET_RAD * cos(270 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(270 * (pi / 180))),
+)
+bl_arc_end = (
+    fillet_center[0] + (FILLET_RAD * cos(180 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(180 * (pi / 180))),
+)
+bl_arc_mid = (
+    fillet_center[0] + (FILLET_RAD * cos(225 * (pi / 180))),
+    fillet_center[1] + (FILLET_RAD * sin(225 * (pi / 180))),
+)
+
+_arc = ArcStartMidEnd()
+_arc.start = Vector2.from_xy_mm(bl_arc_start[0], bl_arc_start[1])
+_arc.mid = Vector2.from_xy_mm(bl_arc_mid[0], bl_arc_mid[1])
+_arc.end = Vector2.from_xy_mm(bl_arc_end[0], bl_arc_end[1])
+_node = PolyLineNode()
+_node.arc = _arc
+outline.append(_node)
+"""
 
 if do_board:
     print("drawing board")
