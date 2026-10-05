@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e965cafa-4916-4eb8-baa0-65aec817bdb5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 40.32)
+		(size 23.495 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13715053-ac55-4a2d-8f1f-d8e8f78a7e9a")
+		(property "Sheetname" "Led Chain"
+			(at 21.59 39.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "New Horizons-led-chain.kicad_sch"
+			(at 21.59 52.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "New Horizons"
+				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 20.32)
+		(size 23.495 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9bcc1a06-a886-437f-b26a-4c0368ddfdad")
+		(property "Sheetname" "Key Matrix"
+			(at 21.59 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "New Horizons-key-matrix.kicad_sch"
+			(at 21.59 32.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "New Horizons"
+				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

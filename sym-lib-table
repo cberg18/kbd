@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "internal_usb")(type "KiCad")(uri "${KIPRJMOD}/lib/internal/CONN_8p94X6p5X3p16_12L_GCC.kicad_sym")(options "")(descr ""))
-  (lib (name "internal_battery")(type "KiCad")(uri "${KIPRJMOD}/lib/internal/RGT16_1P7X1P7.kicad_sym")(options "")(descr ""))
+  (lib (name "gemini")(type "KiCad")(uri "${KIPRJMOD}/libs/0xCB-Gemini/rev1.0/gemini.kicad_sym")(options "")(descr ""))
 )

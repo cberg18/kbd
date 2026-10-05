@@ -1,0 +1,3 @@
+[submodule "libs/0xCB-Gemini"]
+	path = libs/0xCB-Gemini
+	url = https://github.com/0xCB-dev/0xCB-Gemini.git
