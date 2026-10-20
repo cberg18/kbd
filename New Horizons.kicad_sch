@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 22.225 61.595)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10")
+		(property "Sheetname" "Controller Board"
+			(at 22.225 60.8834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controller Board.kicad_sch"
+			(at 22.225 77.4196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "New Horizons"
+				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 20.32)
 		(size 23.495 12.065)
 		(exclude_from_sim no)

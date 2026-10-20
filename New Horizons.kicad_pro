@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_clearance": 0.15,
+          "min_island_area": 9.9999993548,
+          "min_thickness": 0.1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.2
         }
       },
       "diff_pair_dimensions": [],
@@ -665,7 +665,7 @@
         "uuid": "e965cafa-4916-4eb8-baa0-65aec817bdb5"
       }
     ],
-    "used_designators": "#PWR143-144,J1-4",
+    "used_designators": "#PWR139-144,Gemini1,J1-4",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,10 @@
     [
       "13715053-ac55-4a2d-8f1f-d8e8f78a7e9a",
       "Led Chain"
+    ],
+    [
+      "391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10",
+      "Controller Board"
     ]
   ],
   "text_variables": {},
