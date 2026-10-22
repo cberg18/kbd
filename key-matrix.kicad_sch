@@ -7400,7 +7400,7 @@
 			(uuid "f4891012-c6d1-454e-b02a-23aeef4e552a")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D7")
 					(unit 1)
@@ -7440,7 +7440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 219.71 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7480,7 +7480,7 @@
 			(uuid "7493419d-29bb-4c1f-8e99-87e5b57dbe46")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW30")
 					(unit 1)
@@ -7584,7 +7584,7 @@
 			(uuid "ff259f68-2628-4e87-b440-43899bae0c52")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D59")
 					(unit 1)
@@ -7624,7 +7624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 92.71 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7664,7 +7664,7 @@
 			(uuid "5a663433-158d-48e9-ac25-7e2f9af701b1")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW6")
 					(unit 1)
@@ -7768,7 +7768,7 @@
 			(uuid "5d97c00b-c77a-43f1-a755-b5d363a36931")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D56")
 					(unit 1)
@@ -7872,7 +7872,7 @@
 			(uuid "95505067-bbc7-417c-a91f-47939a590f2b")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D9")
 					(unit 1)
@@ -7912,7 +7912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7952,7 +7952,7 @@
 			(uuid "eed2f764-57e6-4176-8657-98d2fd5a9dca")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW36")
 					(unit 1)
@@ -8030,7 +8030,7 @@
 			(uuid "44471277-852c-4802-9643-5aba16415edb")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "#PWR0144")
 					(unit 1)
@@ -8070,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 143.51 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8110,7 +8110,7 @@
 			(uuid "ff75aa6b-0c7c-41f6-9c69-9cd2152968c1")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW52")
 					(unit 1)
@@ -8150,7 +8150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 194.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8190,7 +8190,7 @@
 			(uuid "0ee38cb4-ca4e-41c5-b80a-7d7c37973ebe")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW28")
 					(unit 1)
@@ -8230,7 +8230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 67.31 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8270,7 +8270,7 @@
 			(uuid "f0a9322f-2c21-4b49-a329-f2b32d391289")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW33")
 					(unit 1)
@@ -8310,7 +8310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8350,7 +8350,7 @@
 			(uuid "33e4a334-6d80-4c12-955a-11ee1ed4d53d")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW21")
 					(unit 1)
@@ -8454,7 +8454,7 @@
 			(uuid "b73e83c6-a498-4521-b1fa-ef55ba269c3f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D35")
 					(unit 1)
@@ -8494,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 80.01 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8534,7 +8534,7 @@
 			(uuid "26d5716c-9d3c-43a9-b66f-3e9549624e52")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW5")
 					(unit 1)
@@ -8638,7 +8638,7 @@
 			(uuid "74f3d575-7ab8-4b79-885b-cfad09596607")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D64")
 					(unit 1)
@@ -8742,7 +8742,7 @@
 			(uuid "1249fe64-f253-43de-8ed3-7dd2491ea1f7")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D20")
 					(unit 1)
@@ -8782,7 +8782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8822,7 +8822,7 @@
 			(uuid "22ccdb2b-e3ef-4d77-b735-539bd41280f8")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW41")
 					(unit 1)
@@ -8926,7 +8926,7 @@
 			(uuid "b0a19ff4-aaf1-485f-af82-028ff836b187")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D29")
 					(unit 1)
@@ -8966,7 +8966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9006,7 +9006,7 @@
 			(uuid "85193aec-5c7e-4aeb-b983-9e3232459271")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW34")
 					(unit 1)
@@ -9110,7 +9110,7 @@
 			(uuid "45e45bac-2093-4fcc-a133-e3403955e654")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D13")
 					(unit 1)
@@ -9214,7 +9214,7 @@
 			(uuid "16b96c46-4637-4e00-b58c-679aad49cc4d")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D51")
 					(unit 1)
@@ -9318,7 +9318,7 @@
 			(uuid "8a46d82b-ea35-494d-99f0-982f8e4849bf")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D40")
 					(unit 1)
@@ -9422,7 +9422,7 @@
 			(uuid "0b447084-6454-40d7-b987-7fe6ec6e3aa5")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D53")
 					(unit 1)
@@ -9526,7 +9526,7 @@
 			(uuid "4c38abc1-8327-43ee-b9e9-f2fb0687f63c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D21")
 					(unit 1)
@@ -9630,7 +9630,7 @@
 			(uuid "c4c3406a-7054-41ca-be55-f4ddff9cd1d0")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D1")
 					(unit 1)
@@ -9670,7 +9670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 181.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9710,7 +9710,7 @@
 			(uuid "b610a8a1-a5b8-48ef-9f06-090fffa2195c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW27")
 					(unit 1)
@@ -9814,7 +9814,7 @@
 			(uuid "d6f56c98-7129-49e6-977c-bce4cadc81a6")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D6")
 					(unit 1)
@@ -9854,7 +9854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 118.11 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9894,7 +9894,7 @@
 			(uuid "bdbd3506-0605-475d-b93f-dc25bc043e63")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW8")
 					(unit 1)
@@ -9970,7 +9970,7 @@
 			)
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "ST45")
 					(unit 1)
@@ -10074,7 +10074,7 @@
 			(uuid "59dca8a3-773e-427f-93e7-602097bacf07")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D3")
 					(unit 1)
@@ -10114,7 +10114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 207.01 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10154,7 +10154,7 @@
 			(uuid "aa6dce88-cca0-4219-95c8-5a8c058e579b")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW14")
 					(unit 1)
@@ -10195,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 29.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10235,7 +10235,7 @@
 			(uuid "8160af3b-9beb-4390-8454-059b2666154a")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW31")
 					(unit 1)
@@ -10339,7 +10339,7 @@
 			(uuid "cb068906-8305-46da-b837-57222570e4da")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D43")
 					(unit 1)
@@ -10379,7 +10379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 118.11 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10419,7 +10419,7 @@
 			(uuid "b8505ded-5b75-42c9-bd5a-0d24aa1e9bab")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW37")
 					(unit 1)
@@ -10523,7 +10523,7 @@
 			(uuid "4de19228-4245-4bf5-be54-b949d43baec8")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D25")
 					(unit 1)
@@ -10563,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 105.41 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10603,7 +10603,7 @@
 			(uuid "ab37b48c-8891-4305-8570-b332e3663c17")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW49")
 					(unit 1)
@@ -10707,7 +10707,7 @@
 			(uuid "1efbf93d-9cee-4bee-b201-17eff422a553")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D32")
 					(unit 1)
@@ -10811,7 +10811,7 @@
 			(uuid "3d1732d7-7503-45bd-94eb-52374aba98a3")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D27")
 					(unit 1)
@@ -10851,7 +10851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 92.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10891,7 +10891,7 @@
 			(uuid "ab8e8ed4-3d03-466d-83cb-b15da96af85d")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW35")
 					(unit 1)
@@ -10932,7 +10932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 29.21 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10972,7 +10972,7 @@
 			(uuid "d4c48796-267c-4b88-a3ba-fb9ed7b78b22")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW45")
 					(unit 1)
@@ -11012,7 +11012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 143.51 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11052,7 +11052,7 @@
 			(uuid "86159538-b24c-4b81-b003-ea8654ef191f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW39")
 					(unit 1)
@@ -11092,7 +11092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 156.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11132,7 +11132,7 @@
 			(uuid "ca4ccf91-0f07-4d39-979b-8aed0c12d300")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW40")
 					(unit 1)
@@ -11172,7 +11172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 54.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11212,7 +11212,7 @@
 			(uuid "d7b6a5c6-5d2b-4b4b-83c4-46b9892fa35c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW32")
 					(unit 1)
@@ -11316,7 +11316,7 @@
 			(uuid "c6f3d64d-665f-4633-8a5a-29b73c240d63")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D17")
 					(unit 1)
@@ -11356,7 +11356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 118.11 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11396,7 +11396,7 @@
 			(uuid "b3d41581-81b8-4bf6-b6a0-e82cf7bc3caf")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW50")
 					(unit 1)
@@ -11436,7 +11436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 130.81 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11476,7 +11476,7 @@
 			(uuid "38d6e060-fbac-46d4-8890-03dd49cf07ff")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW38")
 					(unit 1)
@@ -11516,7 +11516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 168.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11556,7 +11556,7 @@
 			(uuid "3f43900c-70d9-4330-85e7-7b584dc65ec4")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW54")
 					(unit 1)
@@ -11596,7 +11596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11636,7 +11636,7 @@
 			(uuid "526f6919-b220-4974-b67d-dab5f4a9a051")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW29")
 					(unit 1)
@@ -11740,7 +11740,7 @@
 			(uuid "99864555-78d9-4281-8a51-098f7fb86c03")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D61")
 					(unit 1)
@@ -11844,7 +11844,7 @@
 			(uuid "a3e97e18-2cf4-4065-900f-f38277f581bb")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D30")
 					(unit 1)
@@ -11884,7 +11884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 194.31 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11924,7 +11924,7 @@
 			(uuid "c4e930af-a827-4299-8594-fa3e9eaab543")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW66")
 					(unit 1)
@@ -12028,7 +12028,7 @@
 			(uuid "687a3428-f6f4-44b2-a4a4-33e4135c27ed")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D34")
 					(unit 1)
@@ -12132,7 +12132,7 @@
 			(uuid "3a888277-03a2-4055-9a22-aaad9e4fd48f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D33")
 					(unit 1)
@@ -12236,7 +12236,7 @@
 			(uuid "4eeb8f98-5a32-4c0a-80e8-226d3bf0cb98")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D4")
 					(unit 1)
@@ -12340,7 +12340,7 @@
 			(uuid "97d8ea92-83fc-47b4-b2b3-88940c98697d")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D12")
 					(unit 1)
@@ -12380,7 +12380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 207.01 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12420,7 +12420,7 @@
 			(uuid "40695a0a-f89d-4a5d-9aa6-dea870ab6ca5")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW67")
 					(unit 1)
@@ -12524,7 +12524,7 @@
 			(uuid "077ace18-eb0a-4c1a-a10c-68d36f277195")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D48")
 					(unit 1)
@@ -12628,7 +12628,7 @@
 			(uuid "42a3dd3d-c701-4409-a58e-a4cb82a546c7")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D41")
 					(unit 1)
@@ -12732,7 +12732,7 @@
 			(uuid "c6c566ac-2c2d-47c7-8973-7ee20d5d8236")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D15")
 					(unit 1)
@@ -12772,7 +12772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 219.71 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12812,7 +12812,7 @@
 			(uuid "e2a9c23d-97c5-408e-a627-91d0868d3404")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW15")
 					(unit 1)
@@ -12852,7 +12852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 30.48 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12892,7 +12892,7 @@
 			(uuid "d6eb5dd4-4e7c-4e43-8a40-57e830f0bdeb")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW16")
 					(unit 1)
@@ -12932,7 +12932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 41.91 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12972,7 +12972,7 @@
 			(uuid "1dffc424-6fd4-4ea8-994c-8931bb14604c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW2")
 					(unit 1)
@@ -13012,7 +13012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 80.01 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13052,7 +13052,7 @@
 			(uuid "e7148c82-6184-4005-b1c8-93388216092b")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW47")
 					(unit 1)
@@ -13092,7 +13092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 105.41 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13132,7 +13132,7 @@
 			(uuid "4a8c2752-fd40-4238-adf6-772b681eb8d6")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW7")
 					(unit 1)
@@ -13172,7 +13172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 207.01 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13212,7 +13212,7 @@
 			(uuid "918388e9-5238-49d6-b131-be926db9e1b6")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW57")
 					(unit 1)
@@ -13322,7 +13322,7 @@
 			(uuid "8e5d4073-d4e6-46f2-b7dd-1b42480e2fe0")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "J4")
 					(unit 1)
@@ -13398,7 +13398,7 @@
 			)
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "ST43")
 					(unit 1)
@@ -13438,7 +13438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 41.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13478,7 +13478,7 @@
 			(uuid "b0ffd455-f956-4db1-ba7a-4956851bed1a")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW60")
 					(unit 1)
@@ -13518,7 +13518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 130.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13558,7 +13558,7 @@
 			(uuid "a29cca1d-5c80-439a-8197-a5ac17e4b52f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW23")
 					(unit 1)
@@ -13598,7 +13598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 181.61 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13638,7 +13638,7 @@
 			(uuid "a7734543-95aa-414d-a4fc-596b6b997f84")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW13")
 					(unit 1)
@@ -13678,7 +13678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13718,7 +13718,7 @@
 			(uuid "99849522-cc7c-4bc5-9728-880ec8b367c0")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW22")
 					(unit 1)
@@ -13822,7 +13822,7 @@
 			(uuid "8b925e8a-506a-412d-b8ef-02e2f2a34002")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D55")
 					(unit 1)
@@ -13862,7 +13862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13902,7 +13902,7 @@
 			(uuid "60b3bcab-49c2-4ab4-848a-a52410aa48db")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW46")
 					(unit 1)
@@ -13942,7 +13942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 156.21 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13982,7 +13982,7 @@
 			(uuid "2c214870-f19a-4c3d-9479-563dccd04f81")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW25")
 					(unit 1)
@@ -14086,7 +14086,7 @@
 			(uuid "5fea7656-ee39-48a8-a496-bbee390965cf")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D65")
 					(unit 1)
@@ -14190,7 +14190,7 @@
 			(uuid "5308940d-e47a-4e27-b697-a27fe92f01a5")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D45")
 					(unit 1)
@@ -14294,7 +14294,7 @@
 			(uuid "0189d7c9-5aaf-4a56-a201-85702e4f9b60")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D49")
 					(unit 1)
@@ -14398,7 +14398,7 @@
 			(uuid "3ccefbfa-888b-4609-80ed-d7693a18298f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D16")
 					(unit 1)
@@ -14474,7 +14474,7 @@
 			)
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "ST14")
 					(unit 1)
@@ -14578,7 +14578,7 @@
 			(uuid "ad2ca581-179c-44f2-8228-eeaf549fef25")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D58")
 					(unit 1)
@@ -14682,7 +14682,7 @@
 			(uuid "7513b209-b815-4973-92bf-0ccbf0508c3f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D11")
 					(unit 1)
@@ -14722,7 +14722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 219.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14762,7 +14762,7 @@
 			(uuid "a25e5620-6e8a-4f6b-9959-25fafb146f10")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW44")
 					(unit 1)
@@ -14866,7 +14866,7 @@
 			(uuid "874d6ee7-7789-4eb5-a4ec-628af5f75bd5")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D38")
 					(unit 1)
@@ -14970,7 +14970,7 @@
 			(uuid "8f9f9fe3-fa72-4303-94fd-9d17fb794e06")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D54")
 					(unit 1)
@@ -15010,7 +15010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 29.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15050,7 +15050,7 @@
 			(uuid "571e6c40-804c-41a6-aee5-142ade01912b")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW59")
 					(unit 1)
@@ -15154,7 +15154,7 @@
 			(uuid "bb237814-fefd-4f70-b173-4a70993de518")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D19")
 					(unit 1)
@@ -15258,7 +15258,7 @@
 			(uuid "4a3908d9-01ec-4429-92eb-69181ec315f3")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D47")
 					(unit 1)
@@ -15298,7 +15298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 219.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15338,7 +15338,7 @@
 			(uuid "bfcd31e0-6015-4c31-99cd-33eb1be19c41")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW68")
 					(unit 1)
@@ -15378,7 +15378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 181.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15418,7 +15418,7 @@
 			(uuid "661bd8f8-e508-41e4-ad79-735d3aa6baa0")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW65")
 					(unit 1)
@@ -15522,7 +15522,7 @@
 			(uuid "d530dbb3-ddc8-40b2-88d9-a79b683a6b9e")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D23")
 					(unit 1)
@@ -15626,7 +15626,7 @@
 			(uuid "199a21a2-4c1a-4eb7-89c4-6f59d2f3b1f1")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D22")
 					(unit 1)
@@ -15730,7 +15730,7 @@
 			(uuid "170c0e85-1e37-4f78-a6c6-1303f1f95cbe")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D8")
 					(unit 1)
@@ -15834,7 +15834,7 @@
 			(uuid "3bff7dda-a826-48f9-85c6-7b5be80e49d2")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D44")
 					(unit 1)
@@ -15938,7 +15938,7 @@
 			(uuid "8b52c705-a957-425a-bb5e-e811a9b72690")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D42")
 					(unit 1)
@@ -16049,7 +16049,7 @@
 			(uuid "8e7a1cbe-9e93-4cba-be2f-153c1952a6c0")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "J3")
 					(unit 1)
@@ -16153,7 +16153,7 @@
 			(uuid "e4f3f0e5-665a-4c09-a6cd-1abf9af8336e")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D57")
 					(unit 1)
@@ -16193,7 +16193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16233,7 +16233,7 @@
 			(uuid "8da0a4b6-cce7-4743-a380-5f6c45be17f8")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW56")
 					(unit 1)
@@ -16273,7 +16273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 168.91 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -16313,7 +16313,7 @@
 			(uuid "37c1817a-0de9-47c2-b26d-f31bd72e5ba9")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW12")
 					(unit 1)
@@ -16353,7 +16353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 54.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16393,7 +16393,7 @@
 			(uuid "66b0ff86-1989-49a5-98ba-121589654a4e")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW61")
 					(unit 1)
@@ -16433,7 +16433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 168.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16473,7 +16473,7 @@
 			(uuid "e4254075-f4fd-4397-a138-bbbaa14ee712")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW64")
 					(unit 1)
@@ -16577,7 +16577,7 @@
 			(uuid "66d2a914-1ce5-493c-89f1-c52e44ba1916")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D18")
 					(unit 1)
@@ -16617,7 +16617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16657,7 +16657,7 @@
 			(uuid "51c18891-5942-47c6-8b57-b548345f5881")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW42")
 					(unit 1)
@@ -16761,7 +16761,7 @@
 			(uuid "acc22b8c-753a-4729-b768-a3cfadce718c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D39")
 					(unit 1)
@@ -16865,7 +16865,7 @@
 			(uuid "9a981a6d-621c-4174-b371-bca34838485a")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D36")
 					(unit 1)
@@ -16905,7 +16905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 130.81 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -16945,7 +16945,7 @@
 			(uuid "6718bd9b-8b51-4754-96d9-684ac0b4936f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW9")
 					(unit 1)
@@ -17049,7 +17049,7 @@
 			(uuid "6a2715fa-009f-4707-8e86-ad2cce726c32")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D10")
 					(unit 1)
@@ -17153,7 +17153,7 @@
 			(uuid "9b9758c7-4a34-4471-8d06-1a1a1b4671a6")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D37")
 					(unit 1)
@@ -17257,7 +17257,7 @@
 			(uuid "e7f1d870-8210-4310-a43c-5a6c0cbdb50d")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D60")
 					(unit 1)
@@ -17361,7 +17361,7 @@
 			(uuid "943d742d-4d38-428a-91ce-6173edca97f3")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D5")
 					(unit 1)
@@ -17465,7 +17465,7 @@
 			(uuid "48535a69-d857-4c87-9e88-fcf70e08500e")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D46")
 					(unit 1)
@@ -17569,7 +17569,7 @@
 			(uuid "59a6a76e-793b-4289-9b5a-17089857f912")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D68")
 					(unit 1)
@@ -17609,7 +17609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 29.21 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -17649,7 +17649,7 @@
 			(uuid "fc4c1ae0-7ef8-492a-b51f-8edc3ce57a9f")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW1")
 					(unit 1)
@@ -17753,7 +17753,7 @@
 			(uuid "137ca53f-e0f8-4e3f-b7c1-0e805479224a")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D63")
 					(unit 1)
@@ -17857,7 +17857,7 @@
 			(uuid "79581c5e-d30c-4b1a-817c-b8fddb5375a6")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D31")
 					(unit 1)
@@ -17961,7 +17961,7 @@
 			(uuid "59e67977-dd6e-4859-8832-c4974db0e2d6")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D14")
 					(unit 1)
@@ -18001,7 +18001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 156.21 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -18041,7 +18041,7 @@
 			(uuid "80ed6ff6-1d17-477c-bed7-84ee0f0f7f41")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW11")
 					(unit 1)
@@ -18081,7 +18081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 92.71 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18121,7 +18121,7 @@
 			(uuid "c54a6d73-e87f-45d5-8420-acc53247b4ed")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW20")
 					(unit 1)
@@ -18161,7 +18161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 207.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18201,7 +18201,7 @@
 			(uuid "99538d66-a734-4745-9ae4-16c987e311b2")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW43")
 					(unit 1)
@@ -18305,7 +18305,7 @@
 			(uuid "c0268f9a-b8ea-4177-b107-7ad44911a5e6")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D67")
 					(unit 1)
@@ -18409,7 +18409,7 @@
 			(uuid "5c2c3eab-d950-4810-b686-19102c67064c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D52")
 					(unit 1)
@@ -18449,7 +18449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 181.61 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18489,7 +18489,7 @@
 			(uuid "849bd3cc-6050-4ca2-a955-3b9a76700ac0")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW55")
 					(unit 1)
@@ -18529,7 +18529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 54.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18569,7 +18569,7 @@
 			(uuid "b6d582c8-41ef-489c-9b45-d991413aa8c3")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW17")
 					(unit 1)
@@ -18609,7 +18609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 118.11 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18649,7 +18649,7 @@
 			(uuid "61124115-d383-4dd0-9ca7-6157b87452b0")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW62")
 					(unit 1)
@@ -18689,7 +18689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18729,7 +18729,7 @@
 			(uuid "da66f605-f457-4f82-a70c-ff90ac8572e9")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW19")
 					(unit 1)
@@ -18833,7 +18833,7 @@
 			(uuid "2ef3e397-410a-4021-a07e-113d2c98a7ec")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D50")
 					(unit 1)
@@ -18909,7 +18909,7 @@
 			)
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "ST62")
 					(unit 1)
@@ -19013,7 +19013,7 @@
 			(uuid "d539f653-edc6-4b99-9cb2-2ed2e96d8245")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D66")
 					(unit 1)
@@ -19117,7 +19117,7 @@
 			(uuid "86d35489-6f69-4785-bb86-431c2d333023")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D24")
 					(unit 1)
@@ -19221,7 +19221,7 @@
 			(uuid "fb9ccd87-01b3-4f7b-b900-add9dcdcb4aa")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D28")
 					(unit 1)
@@ -19261,7 +19261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 143.51 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -19301,7 +19301,7 @@
 			(uuid "7c1bc6f6-cb19-44e0-a3d0-ab54a2e6c2be")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW10")
 					(unit 1)
@@ -19341,7 +19341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -19381,7 +19381,7 @@
 			(uuid "3f1aced5-dcd9-469d-84f8-32ab505f290e")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW51")
 					(unit 1)
@@ -19485,7 +19485,7 @@
 			(uuid "ccfe2fbf-9371-453c-a3dc-7af1446a4647")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D26")
 					(unit 1)
@@ -19525,7 +19525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 168.91 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19565,7 +19565,7 @@
 			(uuid "682639a2-d1e8-42aa-8a5a-0f87dbbd680c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW26")
 					(unit 1)
@@ -19605,7 +19605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 67.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19645,7 +19645,7 @@
 			(uuid "dc9a1bbc-12bd-4e05-aece-2d8e0a24ac5b")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW18")
 					(unit 1)
@@ -19685,7 +19685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 156.21 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -19725,7 +19725,7 @@
 			(uuid "7872c941-106f-42b4-b7f8-07feb524db61")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW53")
 					(unit 1)
@@ -19829,7 +19829,7 @@
 			(uuid "07f2b373-28dd-4b87-b3b9-c6652f270393")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D62")
 					(unit 1)
@@ -19933,7 +19933,7 @@
 			(uuid "60ebb056-a5cf-4c93-8ad9-09d6d747766d")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D2")
 					(unit 1)
@@ -19973,7 +19973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 67.31 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -20013,7 +20013,7 @@
 			(uuid "691777b7-37f1-473d-856c-ecda1f50a48b")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW4")
 					(unit 1)
@@ -20053,7 +20053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 54.61 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -20093,7 +20093,7 @@
 			(uuid "3c57ac05-7868-4670-99db-59d34fcbe54e")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW3")
 					(unit 1)
@@ -20133,7 +20133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -20173,7 +20173,7 @@
 			(uuid "2073ff37-745b-4f96-ab38-8f38ea7310bf")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW48")
 					(unit 1)
@@ -20213,7 +20213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -20253,7 +20253,7 @@
 			(uuid "f7e54534-e2aa-416a-aa6b-2963a636468c")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW58")
 					(unit 1)
@@ -20331,7 +20331,7 @@
 			(uuid "b33928f4-3db2-4030-860e-15bbf12a3307")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "#PWR0143")
 					(unit 1)
@@ -20371,7 +20371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20411,7 +20411,7 @@
 			(uuid "c29e2f50-9fc3-4359-b6e7-b2d7192a4f61")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW63")
 					(unit 1)
@@ -20451,7 +20451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
+		(property "Footprint" "mx_hotswap:MX-Hotswap-1U"
 			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20491,7 +20491,7 @@
 			(uuid "83c507d8-7f54-4f76-9f02-fca5e8773267")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "SW24")
 					(unit 1)

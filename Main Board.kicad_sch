@@ -32,7 +32,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "New Horizons-led-chain.kicad_sch"
+		(property "Sheetfile" "led-chain.kicad_sch"
 			(at 21.59 52.9696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5"
 					(page "3")
 				)
@@ -90,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5"
 					(page "4")
 				)
@@ -124,7 +124,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "New Horizons-key-matrix.kicad_sch"
+		(property "Sheetfile" "key-matrix.kicad_sch"
 			(at 21.59 32.9696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -136,7 +136,7 @@
 			)
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5"
 					(page "2")
 				)

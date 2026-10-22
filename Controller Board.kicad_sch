@@ -2697,7 +2697,7 @@
 			(uuid "c1baf237-cc33-43a5-b60a-ea59af6705af")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10"
 					(reference "#PWR0141")
 					(unit 1)
@@ -2775,7 +2775,7 @@
 			(uuid "a65f9fb0-da97-43d1-a6d2-51dd59692c62")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10"
 					(reference "#PWR0142")
 					(unit 1)
@@ -2852,7 +2852,7 @@
 			(uuid "93785677-8c6b-4b84-b43e-202657e57f16")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10"
 					(reference "#PWR0140")
 					(unit 1)
@@ -2964,7 +2964,7 @@
 			(uuid "d9da039d-3011-48e2-918d-0c0ef3955fb2")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10"
 					(reference "J1")
 					(unit 1)
@@ -3077,7 +3077,7 @@
 			(uuid "cbd8c3ef-8255-40f7-910b-82b42acd6ee2")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10"
 					(reference "J2")
 					(unit 1)
@@ -3261,7 +3261,7 @@
 			(uuid "d9975a93-35a7-4005-95a8-713754241bec")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10"
 					(reference "Gemini1")
 					(unit 1)
@@ -3338,7 +3338,7 @@
 			(uuid "36ff1ae5-24aa-4d7d-a65f-e9fef3123253")
 		)
 		(instances
-			(project "New Horizons"
+			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/391a8ba8-e72a-4a9f-bf2b-fdb1f9968d10"
 					(reference "#PWR0139")
 					(unit 1)
