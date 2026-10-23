@@ -1194,206 +1194,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:SW_stab"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at -5.08 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_stab"
-				(at -5.08 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch stabilizer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "stabilizer stab"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_stab_0_1"
-				(rectangle
-					(start -5.08 1.27)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 -1.524)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.826 2.794)
-					(end -2.794 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.064 1.27)
-					(end -3.556 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.064 -1.778)
-					(end 4.064 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.064 -2.286)
-					(end -3.556 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 1.27)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.524)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.794 2.794)
-					(end 4.826 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.556 1.27)
-					(end 4.064 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.064 -2.286)
-					(end 3.556 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SW_Push_45deg_1"
 			(pin_names
 				(offset 1.016)
@@ -9903,82 +9703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:SW_stab")
-		(at 65.4 140.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3dd41f90-9d02-4a01-b7ea-e7dc108977c0")
-		(property "Reference" "ST45"
-			(at 71.75 139.2529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_stab"
-			(at 71.75 141.7929 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 65.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 65.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch stabilizer"
-			(at 65.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Main Board"
-				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
-					(reference "ST45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 57.15 31.75 90)
 		(unit 1)
@@ -13231,7 +12955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87abea63-0dd0-493a-bfc9-8138c41e376f")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 65.405 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13252,7 +12976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
 			(at 64.77 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13324,83 +13048,7 @@
 		(instances
 			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:SW_stab")
-		(at 45.4 140.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88731d15-d772-49c6-a9ee-1dc80fa0a09e")
-		(property "Reference" "ST43"
-			(at 51.75 139.2529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_stab"
-			(at 51.75 141.7929 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 45.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch stabilizer"
-			(at 45.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Main Board"
-				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
-					(reference "ST43")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14401,82 +14049,6 @@
 			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:SW_stab")
-		(at 25.4 140.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96d89dda-2045-48be-bdbf-9f22609d7ef5")
-		(property "Reference" "ST14"
-			(at 31.75 139.2529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_stab"
-			(at 31.75 141.7929 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 25.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch stabilizer"
-			(at 25.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Main Board"
-				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
-					(reference "ST14")
 					(unit 1)
 				)
 			)
@@ -15958,7 +15530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa7133e1-0365-4260-93c4-db5363909758")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 55.245 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15979,7 +15551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
 			(at 55.88 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16051,7 +15623,7 @@
 		(instances
 			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -18836,82 +18408,6 @@
 			(project "Main Board"
 				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
 					(reference "D50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:SW_stab")
-		(at 85.4 140.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d972753a-6a12-4e47-a0b2-27710e4317ab")
-		(property "Reference" "ST62"
-			(at 91.75 139.2529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_stab"
-			(at 91.75 141.7929 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.25u"
-			(at 85.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch stabilizer"
-			(at 85.4 140.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Main Board"
-				(path "/e965cafa-4916-4eb8-baa0-65aec817bdb5/9bcc1a06-a886-437f-b26a-4c0368ddfdad"
-					(reference "ST62")
 					(unit 1)
 				)
 			)
