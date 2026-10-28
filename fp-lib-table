@@ -2,5 +2,6 @@
 	(version 7)
 	(lib (name "PinSocket") (type "KiCad") (uri "${KIPRJMOD}/libs/Connector_PinSocket_2.54mm.pretty") (options "") (descr ""))
 	(lib (name "Gemini") (type "KiCad") (uri "${KIPRJMOD}/libs/0xCB-Gemini/rev1.0/gemini.pretty") (options "") (descr ""))
-	(lib (name "mx_hotswap") (type "KiCad") (uri "${KIPRJMOD}/libs/MX_V2/MX_Hotswap.pretty") (options "") (descr ""))
+	(lib (name "keebio") (type "KiCad") (uri "${KIPRJMOD}/libs/Keebio-Parts.pretty") (options "") (descr ""))
+	(lib (name "kbd") (type "KiCad") (uri "${KIPRJMOD}/libs/kbd/kicad-footprints/kbd.pretty") (options "") (descr ""))
 )
