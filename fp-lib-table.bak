@@ -3,4 +3,7 @@
 	(lib (name "PinSocket") (type "KiCad") (uri "${KIPRJMOD}/libs/Connector_PinSocket_2.54mm.pretty") (options "") (descr ""))
 	(lib (name "Gemini") (type "KiCad") (uri "${KIPRJMOD}/libs/0xCB-Gemini/rev1.0/gemini.pretty") (options "") (descr ""))
 	(lib (name "keebio") (type "KiCad") (uri "${KIPRJMOD}/libs/Keebio-Parts.pretty") (options "") (descr ""))
+	(lib (name "kbd") (type "KiCad") (uri "${KIPRJMOD}/libs/kbd/kicad-footprints/kbd.pretty") (options "") (descr ""))
+	(lib (name "kicad_pro_micro_rp2040") (type "KiCad") (uri "${KIPRJMOD}/libs/kicad_pro_micro_rp2040/kicad/pro_micro_rp2040/pro_micro_rp2040.pretty") (options "") (descr ""))
+	(lib (name "switch cherry mx") (type "KiCad") (uri "${KIPRJMOD}/footprints/Switch_Keyboard_Cherry_MX.pretty") (options "") (descr ""))
 )

@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "gemini") (type "KiCad") (uri "${KIPRJMOD}/libs/0xCB-Gemini/rev1.0/gemini.kicad_sym") (options "") (descr ""))
 	(lib (name "kbd") (type "KiCad") (uri "${KIPRJMOD}/libs/kbd/kicad-symbols") (options "") (descr ""))
+	(lib (name "promicro rp2040") (type "KiCad") (uri "${KIPRJMOD}/libs/kicad_pro_micro_rp2040/kicad/pro_micro_rp2040/pro_micro_rp2040.kicad_sym") (options "") (descr ""))
 )
